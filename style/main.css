@@ -79,3 +79,12 @@ header .main_logo, header .main_menu {
   padding: 3px;
   float: left;
 }
+
+.main_content .examen_concours {
+  margin-top: 5%;
+  background-color: grey;
+}
+
+.main_content .examen_concours h2 {
+  text-align: center;
+}
