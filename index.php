@@ -1,35 +1,44 @@
 <?php require "views/header.php";?>
-<nav class="header_main_menu">
-  <div class="logo_container">
-    <img src="images/logo.png" alt="SMS Concours">
+<div class="owl-carousel owl-theme owl-loaded owl-drag">
+  <div class="item">
+  <img src="https://bboyjplus.files.wordpress.com/2014/04/bboying-steps-2043304.jpg" alt="" />
+  <div class="inner">
+      <div class="row row-content">
+          <div class="col-md-12">
+              <!-- <div class="headline-wrap">
+                  <h1><span class="reveal-text">H1 TITLE</span></h1>
+                  <h2><span class="reveal-text">H2 TITLE</span></h2>
+              </div> -->
+          </div>
+      </div>
+      <div class="row row-cta">
+          <!-- <div class="col-md-12 cta-wrap">
+              <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+          </div> -->
+      </div>
+    </div>
   </div>
-  <h1>1000 Étudiant inscrits</h1>
-  <ul class="menu">
-    <li>
-      <a href="#">Services</a>
-      <div class="dropdown_service">
-        <ul class="service">
-          <li><a href="#">SMS Concours</a></li>
-          <li><a href="#">Biletain en ligne</a></li>
-        </ul>
+  <div class="item">
+  <img src="https://i.vimeocdn.com/video/550760587.jpg?mw=1920&mh=1080&q=70" alt="" />
+  <div class="inner">
+      <div class="row row-content">
+          <!-- <div class="col-md-12">
+                  <div class="headline-wrap">
+                  <h1><span class="reveal-text">H1 TITLE</span></h1>
+                  <h2><span class="reveal-text">H2 TITLE</span></h2>
+              </div>
+          </div> -->
       </div>
-    </li>
-    <li><a href="#">Inscription</a></li>
-    <li><a href="#">Connexion</a></li>
-    <li>
-      <a href="#">Pays</a>
-      <div class="dropdown_pays">
-        <ul class="service">
-          <li><a href="#">Senegal</a></li>
-          <li><a href="#">Mali</a></li>
-          <li><a href="#">Burkani</a></li>
-          <li><a href="#">Guinée</a></li>
-          <li><a href="#">Côte d'Ivoire</a></li>
-        </ul>
+      <div class="row row-cta">
+          <!-- <div class="col-md-12 cta-wrap js-cta-wrap">
+              <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+          </div> -->
       </div>
-    </li>
-  </ul>
-</nav>
+    </div>
+  </div>
+</div>
+
+
 
 
 <?php require "views/footer.php"; ?>
