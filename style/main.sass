@@ -8,6 +8,7 @@
 header
   width: 100%
   margin-bottom: 5%
+  background-color: #e1e1e1
   .main_header_content
     width: 65%
     margin: 0 auto
@@ -44,14 +45,19 @@ header
     margin-bottom: 5%
   .concours
     img
-      width: (100%/3)
+      width: 32.33%
       height: 274px
-      padding: 3px
       @extend .radius_border
-      float: left
+      display: inline-block
+      &:nth-of-type(2)
+        margin: 10px
 
-  .examen_concours
-    margin-top: 5%
-    background-color: grey
+.examen_concours
+  .concours_wrapper
+    background-color: #e1e1e1
+    @extend .radius_border
     h2
       text-align: center
+      padding: 10px
+      &:first-of-type
+        padding: 15

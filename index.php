@@ -33,8 +33,10 @@
     <img src="images/examensUniversitaires.jpg" alt="Niveau Universitaires">
   </div>
   <div class="examen_concours">
-    <h2>Liste des examens et concours</h2>
-    <h2><span><a href="">En savoir plus</a></span></h2>
+    <div class="concours_wrapper">
+      <h2>Liste des examens et concours</h2>
+      <h2><span><a href="">En savoir plus</a></span></h2>
+    </div>
   </div>
 </div>
 <?php require "views/footer.php"; ?>
