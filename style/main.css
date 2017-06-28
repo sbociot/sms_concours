@@ -19,7 +19,7 @@ header {
 
 /* line 12, ../style/main.sass */
 header .main_header_content {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ header .main_logo, header .main_menu {
 
 /* line 41, ../style/main.sass */
 .main_content {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 

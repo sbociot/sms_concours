@@ -15,7 +15,7 @@ header {
   background-color: #e1e1e1; }
   /* line 12, ../style/main.sass */
   header .main_header_content {
-    width: 65%;
+    width: 80%;
     margin: 0 auto; }
   /* line 16, ../style/main.sass */
   header .header_main_menu .main_logo {
@@ -55,7 +55,7 @@ header {
 
 /* line 41, ../style/main.sass */
 .main_content {
-  width: 65%;
+  width: 80%;
   margin: 0 auto; }
   /* line 44, ../style/main.sass */
   .main_content .owl-carousel {
