@@ -2,32 +2,33 @@
   box-sizing: border-box
   margin: 0
   padding: 0
-.header_main_menu
-  height: 80px
-  background-color: #e1e1e1
-  .logo_container
-    width: 20%
-    img
-      width: 100%
-      vertical-align: middle
-  .logo_container,h1,.menu
-    display: inline-block
-  h1
+header
+  width: 100%
+  .main_header_content
+    width: 80%
     margin: 0 auto
-  .menu
-    float: right
-    margin-right: 100px
-    padding: 10px
-    padding-top: 15px
+  .header_main_menu
+    .main_logo
+      width: 30%
+      li
+        list-style: none
+        display: inline-block
+        a
+          display: block
+          &:hover
+            text-decoration: none
+      li:first-of-type
+        width: 66%
+        img
+          width: 100%
+  .main_menu
+    width: 30%
     li
       list-style: none
       display: inline-block
-  .service
-    background: grey
-    display: block
-    position: absolute
-    li
-      display: block
-      padding: 10px
-      padding-top: 15px
-      text-align: center
+      a
+        color: black
+        &:hover
+          text-decoration: none
+  .main_logo,.main_menu
+    display: inline-block
