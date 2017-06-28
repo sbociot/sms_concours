@@ -16,7 +16,21 @@
   </div>
 </header>
 <div class="main_content">
-  
+  <div class="owl-carousel owl-theme owl-loaded owl-drag">
+    <div class="item">
+      <img src="images/slider01.jpg" alt="" />
+    </div>
+    <div class="item">
+      <img src="images/slider2.jpg" alt="" />
+    </div>
+    <div class="item">
+      <img src="images/slider3.jpg" alt="" />
+    </div>
+  </div>
+  <div class="concours">
+    <img src="images/Bacc.jpg" alt="Niveau Universitaire">
+    <img src="images/concoursNationaux.jpg" alt="">
+    <img src="images/examensUniversitaires.jpg" alt="">
 </div>
 
 
